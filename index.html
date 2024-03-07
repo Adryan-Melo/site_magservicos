@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagServiços</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <style>
+       
+        section{
+            padding-top: 80px;
+            
+        }
+
+        #cont{
+            color: chartreuse;
+        }
+        img{
+            max-width: 900px;
+            max-height:500px;
+            width: auto;
+            height: auto;
+        }
+        .carousel-inner> .carousel-item> img { 
+        margin: auto; 
+        padding-top: 20px;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            height: 30px;
+            width: 30px;
+            background-color: chartreuse;
+        }
+
+        #serviços{
+            padding-top: 50px;
+        }
+
+        .row{
+            padding-top: 30px;
+        }
+        .card{
+            margin: 10px;
+            border-color: chartreuse;
+            
+        }
+
+        #contwa{
+            background-color:chartreuse;
+            border-color: rgba(61, 214, 1, 0.815);
+            margin-top: 30px;
+        }
+
+        h4{
+            margin-top: 50px;
+        }
+        footer{
+        text-align: center;
+        color: antiquewhite;
+        background-color: rgb(33 37 41);
+        padding: 10px;
+        margin-top: 100px;
+        }
+
+    </style>
+</head>
+
+    <header>
+        <div class="navbar"> 
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <div class="container px-4">
+                    <a class="navbar-brand" href="#home">MagServiços</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#serviços">Serviços</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contato" id="cont">Solicite seu orçamento</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            </div>
+
+        </div>
+        
+    </header>
+
+    <body>
+        <div class="container">
+            <section id="home">
+                    <h2>Home</h2>
+                
+                
+                    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                    
+                        <div class="carousel-inner self-align-items">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="asian-plumber-blue-overalls-clearing-blockage-drain.jpg" alt="Primeiro Slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assortment-tools-hardhat.jpg" alt="Segundo Slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="electrician-3087536_1920.jpg" alt="Terceiro Slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="people-working-together-as-team.jpg" alt="Quarto Slide">
+                            </div>
+                        </div>
+                        
+                        <button type="button" class="carousel-control-prev" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+    
+                        <button type="button" class="carousel-control-next" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+    
+                        <div class="carousel-indicators">
+                            <button data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></button>
+                            <button data-bs-target="#carouselIndicators" data-bs-slide-to="1"></button>
+                            <button data-bs-target="#carouselIndicators" data-bs-slide-to="2"></button>
+                            <button data-bs-target="#carouselIndicators" data-bs-slide-to="3"></button>
+                        
+                        </div>
+                    </div>
+                
+        
+            </section>
+
+            <section id="serviços">
+                <h2>Serviços</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                               <div class="card-header">
+                                Eletrica 
+                               </div>                                
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                Encanação 
+                               </div> 
+                            </div>
+                        </div>
+   
+                         <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                Pintura
+                               </div> 
+                            </div>
+                        </div>
+   
+                         <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                               <div class="card-header">
+                                Reformas geral 
+                               </div> 
+                            </div>
+                        </div>
+   
+                         <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                Jardinagem
+                               </div> 
+                            </div>
+                        </div>
+   
+                         <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                Piscina
+                               </div> 
+                            </div>
+                        </div>
+   
+                            
+                    </div>
+                </div>
+            </section>
+
+            <section id="contato">
+                <h2>Solicite seu orçamento</h2>
+                <div class="container">
+                   <h4>Entre em contato pelo link e fale com nosso especialista!</h4>
+                   <a id="contwa" href="https://wa.me/556199114teste" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+
+        
+</body>
+<footer class="footer">
+    <div class="container">
+    <p>(c)Desenvolvido por Adryan Melo (Projeto da EBAC)</p>
+    </div>
+</footer>
+<script src="bootstrap.bundle.min.js"></script>
+</html>
